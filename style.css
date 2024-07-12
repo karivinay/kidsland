@@ -700,6 +700,103 @@ i{
         margin-left: 140px;
     }
 
+    /* box 9 */
+    .box9{
+        height: 790px;
+        width: 100%;
+    }
+    .box9_content{
+        height: 590px;
+        width: 100%;
+        padding: 60px 24px 140px;
+    }
+    .box9_content1{
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .box9_content1 h2{
+        color: #0c1a40;
+        font-size: 48px;
+        font-family:sans-serif ;
+
+    }
+    .box9_content1 button{
+        height: 50px;
+        width: 152px;
+        margin-right: 54px;
+        font-family: sans-serif;
+        background-color: #fe5c45;
+        border-radius: 2.25rem;
+        font-size: 16px;
+        color: white;
+        border-color: transparent;
+    }
+    .box9_content1 button:hover{
+        background-color: rgb(25, 8, 87);
+    }
+
+    .box9_content2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .box9_minibox_img1{
+        height: 269px;
+        width: 380px;
+        background-image: url("images/box9_content2_1.svg");
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .box9_minibox_img2{
+        height: 269px;
+        width: 380px;
+        background-image: url("images/box9_content2_2.svg");
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .box9_minibox_img3{
+        height: 269px;
+        width: 380px;
+        background-image: url("images/box9_content2_3.svg");
+        background-size: cover;
+        border-radius: 30px;
+    }
+    .box9_minibox_content1{
+        display: flex;
+        color: #8ec21e;
+        margin-top: 15px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .box9_minibox_content1 p{
+        margin-right: 30px;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    .box9_minibox_content1 i{
+        font-size: 40px;
+    }
+    .box9_minibox_content2 {
+        margin-left: 20px;
+    }
+    .box9_minibox_content2 p{
+        font-size: 24px;
+        font-family: sans-serif;
+        color: #0c1a40;
+    }
+    .box9_minibox_content2 a{
+        text-decoration: none;
+        color: #fc5c45;
+        font-size: 20px;
+        font-family: sans-serif;
+
+    }
+
 
 
 
@@ -779,6 +876,7 @@ i{
         width: 100%;
         padding: 28px 30px 28px;
         background-color: #223668;
+        border-color: transparent;
     }
     .footer_bottom2_text{
         text-align: center;
