@@ -1,5 +1,5 @@
 body{
-    background-color: #fffdf5;
+    background-color: #fff5cf;
 }
 
 .navbar{
@@ -149,6 +149,44 @@ i{
     height: 596px;
     width: 55%;
 }
+.box2_content1 h2{
+    margin-left: 24px;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #0c1a40;
+}
+.box2_content1 p{
+    margin-left: 24px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #0c1a40;
+}
+.box2_contant1_support{
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.box2_contant1_support i{
+    font-size: 50px;
+}
+.box2_contant1_support .text{
+    margin-left: 30px;
+}
+.box2_contant1_support .text1{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0c1a40;
+    margin-bottom: 7px;
+}
+.box2_contant1_support .text2{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #0c1a40;
+}
+
+
+
 .box2_content2{
     height: 596px;
     width: 55%;
@@ -157,15 +195,15 @@ i{
     align-items: center;
 }
 .box2_content2_img{
-    height: 418px;
-    width: 533px;
+    height: 318px;
+    width: 433px;
     background-image: url("images/contact_box2.svg");
     background-size: cover;
 }
 
 /* box 3 */
 .box3{
-    height:831px;
+    height:751px;
     width: 100%;
     padding-bottom: 140px;
     display: flex;
@@ -174,7 +212,7 @@ i{
 
 }
 .box3_content{
-    height: 831px;
+    height: 751px;
     width: 979px;
     background-color: white;
     border-radius: 50px;text-align: center;
@@ -266,6 +304,9 @@ i{
 }
 .form5{
     margin: 30px 90px 0px;
+}
+.form5 a{
+    text-decoration: none;
 }
 .form5 button{
     color: white;
